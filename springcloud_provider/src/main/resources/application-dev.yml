@@ -4,4 +4,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost1:1111/eureka/,http://localhost2:1110/eureka/
+      defaultZone: http://localhost1:1110/eureka/

@@ -1,4 +1,6 @@
-spring:
-  application:
-    name: springcloud_consumer
-    port: 8081
+server:
+  port: 9000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost1:1111/eureka/
