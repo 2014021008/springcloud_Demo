@@ -11,6 +11,7 @@
         <module>springcloud_consumer</module>
         <module>springcloud_provider</module>
         <module>eureka_server</module>
+        <module>config_server</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -63,6 +64,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-javanica</artifactId>
         </dependency>
     </dependencies>
 

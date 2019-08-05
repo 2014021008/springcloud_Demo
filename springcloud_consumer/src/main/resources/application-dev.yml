@@ -1,6 +1,6 @@
 server:
-  port: 9000
+  port: 9090
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost1:1111/eureka/
+      defaultZone: http://localhost:1110/eureka/
