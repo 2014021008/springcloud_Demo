@@ -4,3 +4,17 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1110/eureka/
+  instance:
+    prefer-ip-address: true
+
+info:
+  app:
+    name: consumer9090
+  company:  www.xxx.com
+  build:
+    artifactId: ${project.artifactId}$
+    version: ${project.version}$
+
+
+
+
