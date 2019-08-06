@@ -8,19 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/2014021008/profile.git
-          search-paths:
-          default-label: master
+          uri: https://github.com/2014021008/springcloud_Demo/
+          search-paths: config-repo
 eureka:
   client:
     service-url:
       defaultZone:  http://localhost:1110/eureka
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: always
