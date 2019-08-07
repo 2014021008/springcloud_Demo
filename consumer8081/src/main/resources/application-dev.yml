@@ -1,0 +1,21 @@
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost1:7070/eureka/,http://localhost2:7071/eureka,http://localhost3:7072/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: consumer8081
+
+info:
+  app:
+    name: consumer8081
+  company:  www.xxx.com
+  build:
+    artifactId: ${project.artifactId}$
+    version: ${project.version}$
+
+
+
+

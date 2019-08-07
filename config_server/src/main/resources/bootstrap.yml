@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/2014021008/springcloud_Demo/
+          uri: https://github.com/2014021008/springcloud_Demo
           search-paths: config-repo
 eureka:
   client:

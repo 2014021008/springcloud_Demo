@@ -1,0 +1,19 @@
+server:
+  port: 9092
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost1:7070/eureka/,http://localhost2:7071/eureka,http://localhost3:7072/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: provider9092
+
+
+info:
+  app:
+    name: provider9092
+  company:  www.xxx.com
+  build:
+    artifactId: ${project.artifactId}$
+    version:  ${project.version}$

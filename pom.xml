@@ -8,10 +8,14 @@
     <artifactId>springcloud_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springcloud_consumer</module>
-        <module>springcloud_provider</module>
-        <module>eureka_server</module>
+        <module>consumer8081</module>
+        <module>provider9091</module>
+        <module>eureka_server1</module>
         <module>config_server</module>
+        <module>eureka_server2</module>
+        <module>eureka_server3</module>
+        <module>provider9092</module>
+        <module>provider9093</module>
     </modules>
     <packaging>pom</packaging>
 
