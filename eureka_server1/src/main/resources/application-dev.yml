@@ -4,8 +4,11 @@ eureka:
   instance:
     hostname: localhost1
     prefer-ip-address: true
+    instance-id: localhost1_7070
   client:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
       defaultZone:  http://localhost2:7071/eureka,http://localhost3:7072/eureka
+  server:
+    enable-self-preservation: true  #自我保护机制开启
